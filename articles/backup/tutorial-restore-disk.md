@@ -43,7 +43,6 @@ By default, Azure Backup takes a file system consistent backup. Once Azure Backu
 
 When the data transfer is complete, the snapshot is removed and a recovery point is created.
 
-
 ## List available recovery points
 To restore a disk, you select a recovery point as the source for the recovery data. As the default policy creates a recovery point each day and retains them for 30 days, you can keep a set of recovery points that allows you to select a particular point in time for recovery. 
 
